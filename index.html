@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>TRIVORA | Boas descobertas, boas compras</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#inicio" aria-label="TRIVORA, início">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name"><span>TRIVORA</span></span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#inicio" aria-current="page">Início</a>
+        <a href="#ofertas">Ofertas</a>
+        <a href="#sobre">Sobre nós</a>
+      </nav>
+
+      <label class="search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" stroke-width="1.8"></circle>
+          <path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
+        </svg>
+        <input id="store-search" type="search" placeholder="O que você procura?" autocomplete="off" aria-label="Buscar produtos ou lojas">
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> SEU RADAR DE BOAS DESCOBERTAS</span>
+          <h1>Escolha em qual loja<br>fazer sua <span class="highlight">compra</span></h1>
+          <p>Encontre sua loja favorita para comprar. Explore ofertas e confira os detalhes direto no anúncio.</p>
+        </div>
+
+        <div class="stores" id="ofertas" aria-label="Lojas parceiras">
+          <article class="store-card mercado" data-search="mercado livre ml entrega frete gratis mercado pago achados">
+            <span class="popular">MAIS ACHADOS</span>
+            <div class="store-heading">
+              <span class="store-icon" aria-hidden="true">ML</span>
+              <div>
+                <h2>Mercado Livre</h2>
+                <p>Variedade de produtos e ofertas</p>
+              </div>
+            </div>
+            <ul class="benefits">
+              <li>Compra garantida e preços de oferta</li>
+              <li>Frete grátis em milhares de produtos</li>
+            </ul>
+            <a class="store-link" href="https://miguelsantosnavegantes-cyber.github.io/radardosachados.-com/" target="_blank" rel="noopener noreferrer">
+              <span>EXPLORAR MERCADO LIVRE</span>
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </a>
+          </article>
+
+          <article class="store-card shopee" data-search="shopee sh cupons desconto achadinhos preço">
+            <div class="store-heading">
+              <span class="store-icon" aria-hidden="true">SH</span>
+              <div>
+                <h2>Shopee</h2>
+                <p>Ofertas e cupons na loja</p>
+              </div>
+            </div>
+            <ul class="benefits">
+              <li>Explore produtos da vários categorias</li>
+              <li>Cupons e descontos do dia a dia</li>
+            </ul>
+            <a class="store-link" href="https://shopee.com.br/" target="_blank" rel="noopener noreferrer">
+              <span>EXPLORAR SHOPEE</span>
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </a>
+          </article>
+
+          <p class="empty-state" role="status">Nenhuma loja encontrada. Tente buscar por Mercado Livre ou Shopee.</p>
+        </div>
+
+        <div class="trust-row" id="sobre">
+          <span class="trust-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3 19 6v5c0 4.5-2.8 8-7 10-4.2-2-7-5.5-7-10V6l7-3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+            <span>Você compra <strong>direto na loja</strong></span>
+          </span>
+          <span class="trust-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"></circle><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg>
+            <span>Consulte as <strong>condições</strong> no anúncio</span>
+          </span>
+          <span class="trust-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m12 3 2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"></path></svg>
+            <span>Escolha com base nas <strong>avaliações</strong></span>
+          </span>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  
+</body>
+</html>
